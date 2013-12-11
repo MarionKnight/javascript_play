@@ -1,7 +1,8 @@
 var primes = require('./primes');
 
-function assert() {
-  console.log(primes.isPrime(1) == false);
+function assert(statement, expectation) {
+  console.log("expect", statement, "==", expectation, "to be true");
+  console.log(eval(statement) == expectation);
 }
 
-assert();
+assert("primes.isPrime(1)", false);

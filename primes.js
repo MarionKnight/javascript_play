@@ -1,4 +1,4 @@
 exports.isPrime = function (n) {
-  return n;
+  if (n == 1) return false;
 }
 
