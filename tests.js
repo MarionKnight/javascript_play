@@ -6,3 +6,7 @@ function assert(statement, expectation) {
 }
 
 assert("primes.isPrime(1)", false);
+assert("primes.isPrime(2)", true);
+assert("primes.isPrime(3)", true);
+assert("primes.isPrime(4)", false);
+
