@@ -7,3 +7,13 @@ exports.isPrime = function (n) {
   return true
 }
 
+exports.printPrimes = function (n) {
+  var primes = [];
+  if (n <= 1) return;
+  for (var i = 2; i <= n; i++) {
+    if (exports.isPrime(i)) {
+      primes.push(i);
+    }
+  }
+  return primes;
+}

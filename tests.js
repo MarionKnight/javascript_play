@@ -12,3 +12,5 @@ assert("primes.isPrime(4)", false);
 assert("primes.isPrime(3571)", true);
 assert("primes.isPrime(3570)", false);
 
+assert("primes.printPrimes(2)", "[ 2 ]");
+console.log(primes.printPrimes(2));
