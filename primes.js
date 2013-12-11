@@ -1,4 +1,4 @@
-function isPrime(n) {
-  console.log(n);
+exports.isPrime = function (n) {
+  return n;
 }
 

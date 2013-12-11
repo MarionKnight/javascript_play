@@ -1,6 +1,7 @@
-require('./primes.js');
+var primes = require('./primes');
 
 function assert() {
-  isPrime(1) == false
+  console.log(primes.isPrime(1) == false);
 }
 
+assert();
